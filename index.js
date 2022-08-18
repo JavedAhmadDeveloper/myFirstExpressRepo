@@ -13,7 +13,11 @@ app.get("/students", (req, res) => {
 
 app.post("/students/:id", (req, res) => {
   const { id } = req.params;
+  const { name } = req.body;
 
+  if (!name) {
+    res.status(406).send({ message: "we must have a name" });
+  }
   res.send({
     name,
     company: "MergeStack",
