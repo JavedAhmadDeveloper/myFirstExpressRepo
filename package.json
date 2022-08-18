@@ -1,0 +1,23 @@
+{
+  "name": "myFirstExpressRepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JavedAhmadDeveloper/myFirstExpressRepo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JavedAhmadDeveloper/myFirstExpressRepo/issues"
+  },
+  "homepage": "https://github.com/JavedAhmadDeveloper/myFirstExpressRepo#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
