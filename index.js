@@ -3,9 +3,19 @@ var app = express();
 const PORT = 8000;
 
 app.use(express.json());
+
 app.get("/students", (req, res) => {
   res.status(200).send({
     name: "Javed Ahmad",
+    company: "MergeStack",
+  });
+});
+
+app.post("/students/:id", (req, res) => {
+  const { id } = req.params;
+
+  res.send({
+    name,
     company: "MergeStack",
   });
 });
